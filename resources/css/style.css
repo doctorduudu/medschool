@@ -91,63 +91,6 @@ nav ul li:hover {
 
 
 
-/* 235 edits */
-#ans235 {
-  margin: 2% 10%;
-  font-size: 1.3rem;
-}
-
-#ans237 {
-  margin: 2% 10%;
-  font-size: 1.3rem;
-}
-
-#ans235 h3 {
-  font-weight: bold;
-}
-
-#ans237 h3 {
-  font-weight: bold;
-}
-
-#ans235 ul li {
-  margin-bottom: 1rem;
-}
-
-
-#ans237 ul li {
-  margin-bottom: 1rem;
-}
-
-.container ul {
-  font-size: 1.3rem;
-}
-
-.container ul li {
-  margin-bottom: 1rem;
-}
-
-#downloadable235 {
-   margin: 5% 10%;
-}
-#downloadable235 a {
-  font-size: 2rem;
-}
-
-
-#downloadable237 {
-   margin: 5% 10%;
-}
-#downloadable237 a {
-  font-size: 2rem;
-}
-
-#downloadable233 {
-   margin: 5% 10%;
-}
-#downloadable233 a {
-  font-size: 2rem;
-}
 
 
 img {
@@ -157,4 +100,85 @@ img {
 
 .container a {
   font-size: 1.5rem;
+}
+
+
+.sections {
+  display: inline-flex;
+  margin-bottom: 20rem;
+}
+
+.sections img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 15rem;
+  width: 90%;
+  margin: 0.2rem 5%;
+  border: 2px orange solid;
+  border-radius: 8px;
+}
+
+#pzone {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 10;
+  justify-content: center;
+
+}
+
+#pzone img {
+  width: 15rem;
+  display: inline;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 18rem;
+
+  margin: 0.2rem 0.1rem;
+  border: 2px orange solid;
+  border-radius: 8px;
+}
+
+
+#qzone {
+  margin: 20rem 5%;
+  font-size: 1.5rem;
+  font-family: Helvetica;
+}
+
+#qzone {
+  margin: 20rem 5%;
+  font-size: 1.5rem;
+  font-family: Helvetica;
+}
+
+#vzone {
+  margin: 20rem 5%;
+  font-size: 1.5rem;
+  font-family: Helvetica;
+}
+
+#ozone {
+  margin: 20rem 5%;
+  font-size: 1.5rem;
+  font-family: Helvetica;
+}
+
+.qvo p {
+  margin-bottom: 3px;
+  padding: 5px 8px;
+  background-color: #54a1d6;
+  border-radius: 5px;
+}
+
+.qvo a {
+  color: orange;
+}
+
+
+.photohead {
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
 }
